@@ -1,20 +1,6 @@
 """
-Candidate Variables:
--players
--current_player
-- board
--
--
--
--
-Candidate Functions:
--display_board
--is_game_over
--check_win
--is_draw
--write_in_board
--make_move
--display_current_user
+Garrett Badger
+Tic Tac Toe
 """
 def main():
     gameover = False
@@ -111,112 +97,7 @@ def is_game_over(board):
             board[2] == board[5] == board[8] or
             board[0] == board[4] == board[8] or
             board[2] == board[4] == board[6])
-
-#def is_game_over(board):
-#    """
-#    Checks to see if game is over.
-#    """
-#    
-#    if board[0:3] == "X":
-#        print("Game Over!")
-#        return True
-#        
-#    elif board[0:3] == "O":
-#        print("Game Over!")
-#        return True
-#
-#    elif board[3:6] == "X":
-#        print("Game Over")
-#        return True
-#
-#    elif board[3:6] == "O":
-#        print("Game Over")
-#        return True
-#
-#    elif board[6:9] == "X":
-#        print("Game Over")
-#        return True
-#
-#    elif board[6:9] =="O":
-#        print("Game Over")
-#        return True
-#
-#    elif board[0] == "X":
-#        if board[3] =="X":
-#            if board[6] =="X":
-#
-#                print("Game Over")
-#                return True
-#
-#    elif board[0] == "O":
-#        if board[3] =="O":
-#            if board[6] =="O":
-#
-#                print("Game Over")
-#                return True
-#
-#    elif board[1] == "X":
-#        if board[4] =="X":
-#            if board[7] =="X":
-#
-#                print("Game Over")
-#                return True
-#
-#    elif board[1] == "O":
-#        if board[4] =="O":
-#            if board[7] =="O":
-#
-#                print("Game Over")
-#                return True
-#
-#    elif board[2] == "X":
-#        if board[5] =="X":
-#            if board[8] =="X":
-#
-#                print("Game Over")
-#                return True
-#
-#    elif board[2] == "O":
-#        if board[5] =="O":
-#            if board[8] =="O":
-#
-#                print("Game Over")
-#                return True
-#
-#    elif board[0] == "X":
-#        if board[4] =="X":
-#            if board[8] =="X":
-#
-#                print("Game Over")
-#                return True
-#
-#    elif board[0] == "O":
-#        if board[4] =="O":
-#            if board[8] =="O":
-#
-#                print("Game Over")
-#                return True
-#
-#    elif board[2] == "X":
-#        if board[4] =="X":
-#            if board[6] =="X":
-#
-#                print("Game Over")
-#                return True
-#    
-#    elif board[2] == "O":
-#        if board[4] =="O":
-#            if board[6] =="O":
-#
-#                print("Game Over")
-#                return True
-#
-#    else: 
-#        return False
-#        
-        #get_user_choice(board)
-
-    
+  
 
 
 def is_tie_game(board):
